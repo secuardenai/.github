@@ -34,7 +34,6 @@ Navigate AppSec compliance across multiple frameworks
 - 💡 Implementation guidance
 
 </td>
-</tr>
 <td width="50%" valign="top">
 
 ### 🧭 [Context Confidence Rating Calculator](https://github.com/secuardenai/context-confidence-rating)
@@ -56,10 +55,10 @@ Calculate context-aware confidence scores for security findings
 pip install context-confidence-rating
 ccr analyze /path/to/repo
 ```
-
 </td>
+</tr>
 <tr>
-<td width="50%" valign="top">
+<td width="100%" valign="top">
 
 ### 🔮 Coming Soon
 
