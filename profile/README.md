@@ -34,6 +34,31 @@ Navigate AppSec compliance across multiple frameworks
 - 💡 Implementation guidance
 
 </td>
+</tr>
+<td width="50%" valign="top">
+
+### 🧭 [Context Confidence Rating Calculator](https://github.com/secuardenai/context-confidence-rating)
+
+Calculate context-aware confidence scores for security findings
+
+***Lightweight Python library*** that prioritizes vulnerabilities based on actual exploitability in your codebase
+
+[![Stars](https://img.shields.io/github/stars/SecuardenAI/context-confidence-rating?style=social)](https://github.com/SecuardenAI/context-confidence-rating)
+
+
+**Key Features:**
+- 🎯 0-100 confidence scoring
+- 🔍 Framework & dependency detection
+- ⚡ Zero dependencies, pure Python
+- 🤖 CI/CD ready with JSON output
+
+```python
+pip install context-confidence-rating
+ccr analyze /path/to/repo
+```
+
+</td>
+<tr>
 <td width="50%" valign="top">
 
 ### 🔮 Coming Soon
