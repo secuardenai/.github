@@ -20,7 +20,7 @@
 
 ### 🧭 [ComplianceCompass](https://github.com/SecuardenAI/compliance-compass)
 
-Navigate AppSec compliance across multiple frameworks
+The missing layer between AppSec findings and SOC2 / ISO / PCI evidence.
 
 **Interactive tool** to map security requirements across OWASP, ISO27001, and NIST SSDF
 
@@ -38,7 +38,7 @@ Navigate AppSec compliance across multiple frameworks
 
 ### 🧭 [Context Confidence Rating Calculator](https://github.com/secuardenai/context-confidence-rating)
 
-Calculate context-aware confidence scores for security findings
+Why CVSS fails modern apps — and how CCR fixes it.
 
 ***Lightweight Python library*** that prioritizes vulnerabilities based on actual exploitability in your codebase
 
@@ -58,7 +58,7 @@ ccr analyze /path/to/repo
 </td>
 </tr>
 <tr>
-<td width="100%" valign="top">
+<td colspan="2" valign="top">
 
 ### 🔮 Coming Soon
 
