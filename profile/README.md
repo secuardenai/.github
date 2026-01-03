@@ -58,7 +58,34 @@ ccr analyze /path/to/repo
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top"> 
+
+### 🧐 [Secuarden Headers](https://github.com/SecuardenAI/secuarden-headers)
+Modern HTTP security headers scanner for catching misconfigurations before they become vulnerabilities.  
+Professional-grade CLI tool for analyzing security headers across your web applications with instant scoring and actionable insights.
+
+[![CI](https://github.com/SecuardenAI/secuarden-headers/workflows/CI/badge.svg)](https://github.com/SecuardenAI/secuarden-headers/actions)
+[![Python Version](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+**Key Features:**
+* 🚀 **Async Scanning** - Concurrent analysis of multiple URLs with configurable limits
+* 🎯 **Modern Headers** - Checks COOP, COEP, CORP, Permissions-Policy, CSP, HSTS, and more
+* 📊 **Security Scoring** - Instant 0-100 rating with detailed breakdowns
+* 🎨 **Rich CLI** - Beautiful terminal output with colors, tables, and progress indicators
+* 📄 **Export Options** - JSON/CSV output for integration with CI/CD and reporting
+* 🐳 **Docker Ready** - Pre-built container for seamless deployment
+* ⚡ **Developer First** - Python 3.10+ with type hints, async/await, comprehensive tests
+```bash
+# Quick Start
+pip install secuarden-headers
+secuarden-headers https://yourapp.com -o results.json
+```
+
+**Perfect for:** DevSecOps teams, security audits, CI/CD integration, compliance validation
+</td>
+<td width="50%" valign="top">
 
 ### 🔮 Coming Soon
 
