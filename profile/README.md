@@ -16,6 +16,26 @@
 
 <table>
 <tr>
+
+### 💻 [Secuarden CLI](https://github.com/secuardenai/secuarden-cli)
+
+[![Stars](https://img.shields.io/github/stars/SecuardenAI/secuarden-cli?style=social)](https://github.com/SecuardenAI/secuarden-cli)
+
+A passive capture agent for AI coding sessions. Hooks into Claude Code (Cursor, Copilot coming) and records every file read, shell command, and tool call into a local SQLite ledger — secrets scrubbed before anything hits disk.
+
+The problem it solves: AI coding agents take 50+ actions per session. Git shows what changed; it doesn't show the agent read your .env, ran 47 commands, and rewrote 12 files in 90 seconds. When SOC 2 auditors ask "who authorized this AI change?" you need more than a commit log.
+
+### How it works:
+
+- secuarden init installs hooks and creates the database in under a second
+- Every action gets a structured event: timestamp, action type, file paths, developer identity, session context
+- Two-layer privacy: sensitive file detection suppresses content; pattern-based redaction scrubs API keys, tokens, JWTs, and credentials from commands and output
+- All data stays local by default (add SecuardenAI SaaS `--api-key`) to enable SaaS sync and get per-session risk feedback printed to your terminal the moment a session ends
+- Built for: security and GRC teams that need an evidence trail for AI-assisted development, platform teams rolling out AI tools across engineering, and individual developers who want to know exactly what the agent did.
+
+Open source (Apache 2.0). The capture agent is free. The compliance intelligence platform is [secuarden.ai](https://secuarde.ai).
+<td>
+<tr>
 <td width="50%" valign="top">
 
 ### 🧭 [ComplianceCompass](https://github.com/SecuardenAI/compliance-compass)
