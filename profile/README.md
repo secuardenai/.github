@@ -35,6 +35,7 @@ The problem it solves: AI coding agents take 50+ actions per session. Git shows 
 
 Open source (Apache 2.0). The capture agent is free. The compliance intelligence platform is [secuarden.ai](https://secuarde.ai).
 <td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 
@@ -186,7 +187,7 @@ We believe **security compliance shouldn't be a mystery**. We're building open-s
 
 <div align="center">
 
-### [Secuarden](https://secuarden.com)
+### [Secuarden](https://secuarden.ai)
 
 **Product Security Intelligence That Auditors Actually Accept**
 
@@ -210,10 +211,10 @@ We're sharing them to help everyone.
 
 ---
 
-<sub>All projects released under MIT License • Built with ❤️ for the security community</sub>
+<sub>Built with ❤️ for the security community</sub>
 
-[![Website](https://img.shields.io/badge/🌐_Website-secuarden.com-00d4ff)](https://secuarden.com)
+[![Website](https://img.shields.io/badge/🌐_Website-secuarden.ai-00d4ff)](https://secuarden.ai)
 [![Twitter](https://img.shields.io/badge/🐦_Twitter-@secuarden-00d4ff)](https://twitter.com/secuarden)
-[![Email](https://img.shields.io/badge/📧_Email-support@secuarden.com-7CC243)](mailto:support@secuarden.com)
+[![Email](https://img.shields.io/badge/📧_Email-support@secuarden.ai-7CC243)](mailto:support@secuarden.ai)
 
 </div>
