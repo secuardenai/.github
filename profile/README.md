@@ -33,7 +33,7 @@ The problem it solves: AI coding agents take 50+ actions per session. Git shows 
 - All data stays local by default (add SecuardenAI SaaS `--api-key`) to enable SaaS sync and get per-session risk feedback printed to your terminal the moment a session ends
 - Built for: security and GRC teams that need an evidence trail for AI-assisted development, platform teams rolling out AI tools across engineering, and individual developers who want to know exactly what the agent did.
 
-Open source (Apache 2.0). The capture agent is free. The compliance intelligence platform is [secuarden.ai](https://secuarde.ai).
+Open source (Apache 2.0). The capture agent is free. The compliance intelligence platform is [secuarden.ai](https://secuarden.ai).
 <td>
 </tr>
 <tr>
